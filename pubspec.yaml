@@ -1,0 +1,33 @@
+name: uok_events
+description: "A mobile app for campus events management"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  intl: ^0.20.2
+  image_picker: ^1.1.2
+  firebase_storage: ^13.0.4
+  video_player: ^2.8.21 # For playing videos
+  firebase_messaging: ^16.0.4
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/uok_logo.png
